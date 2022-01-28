@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>
+            Instituto de Computação
+        </title>
+    </header>
+    <body>
+        <h1>Fomulario de Contato</h1>
+        <fieldset>
+            <legend>Dados Basicos</legend>
+            <form>
+                <label>Nome</label> 
+                <input name="Nome" type="text" id="f-name">
+                <br>
+                <label>E-mail</label> 
+                <input name="E-mail" type="email" placeholder="seunome@dominio.com.br">
+                <br>
+                <label>Website</label> 
+                <input name="Website" type="text" value="http://">
+                <br>
+            </form>
+        </fieldset>  
+        
+        <fieldset>
+            <legend>Seu curso no Instituto de Computação</legend>
+            <input type="radio" name="Ciencia da Computacao" value="cc" id="cc">
+            <label for="cc">Ciências da Computação</label>
+            <br>
+            <input type="radio" name="Sistemas de Informacao" value="si" id="si">
+            <label for="si">Sistemas de Informação</label>
+            <br>
+            <input type="radio" name="Engenharia da Computacao" value="ec" id="ec">
+            <label for="ec">Engenharia da Computação</label>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Assinale as linguagens já usadas por você
+            </legend>
+            <label for="j">Java </label>
+            <input type="checkbox" name="ling[]" value="Java" id="j"> 
+            <label for="c">C </label>
+            <input type="checkbox" name="ling[]" value="C" id="c">
+            <label for="c++">C++ </label>
+            <input type="checkbox" name="ling[]" value="C++" id="c++">
+            <label for="pe">Perl </label>  
+            <input type="checkbox" name="ling[]" value="Perl" id="pe"> 
+            <label for="py">Python </label>
+            <input type="checkbox" name="ling[]" value="Python" id="py"> 
+            <label for="js">Javascript </label>
+            <input type="checkbox" name="ling[]" value="Javascript" id="js"> 
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Dados Complementares
+            </legend>
+
+            <label for="c-s">Cor favorita </label>
+            <input type="color" id="c-s">
+            <br>
+            <label for="dt-n">Data de nascimento</label>
+            <input type="date" id="dt-n">
+            <br>
+            <label for="ano-e">Ano de entrada em seu curso do Icomp</label>
+            <input type="number" value="2020" id="ano-e">
+            <br>
+            <label for="nota">Nota para este site</label>
+            <input type="range" value=0 id="nota">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Área de atuação
+            </legend>
+
+            <select name="area" id="at-area">
+                <option value="BD">Banco de Dados</option>
+                <option value="EAD">Educação a Distância</option>
+                <option value="ES">Engenharia de Software</option>
+                <option value="OT">Otimização</option>
+                <option value="PW">Programação para a Web</option>
+                <option value="RI">Recuperação de Informação</option>
+                <option value="RC">Redes de Computadores</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Submeta seu currículo vitae
+            </legend>
+            <input type="file">
+        </fieldset>
+
+        <fieldset >
+            <legend>
+                Escreva sua mensagem
+            </legend>
+            <textarea name="mensagem" rows="4" cols="60">Este é o valor padrão!</textarea>
+        </fieldset>
+
+        <br>
+
+        <button type="reset">Resetar Dados</button>
+        <button type="submit">Enviar Mensagem</button>
+    </body>    
+</html>
