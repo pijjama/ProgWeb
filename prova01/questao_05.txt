@@ -1,0 +1,7 @@
+O MVC é um padrão de arquitetura que através de um design de camadas cria uma estrutura de competências que otimiza as requisições feitas à solução onde o MVC foi aplicado.
+
+Model: É a camada responsável por gerenciar e controlar a forma que os dados se comportam, e onde são aplicadas as regras de negócio, ele também valida as informações retornadas pelo controller e depois retorna a resposta mais adequada
+
+Controller: É a camada de intermediação entre a View e o Model, fazendo o processamento dos dados e permite a comunicação entre as demais camadas
+
+View: É a camada responsável por apresentar as informações de forma visual ao usuário nela devem ser aplicados apenas recursos ligados a aparência como mensagens, botões ou telas.

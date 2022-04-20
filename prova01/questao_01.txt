@@ -1,0 +1,3 @@
+Linha 04 - A sintase para fazer um comentário em HTML pode ser <!-- --> no caso em questão
+Linha 08 e 09 - Estão duas linhas apresentam o mesmo erro, pois a tribuição de valor em css deve ser feita usando :  e não =
+Linha 25 - o pré-fixo that deve ser mudado para this, buscando referênciar o atributo do objeto
