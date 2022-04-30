@@ -1,0 +1,12 @@
+// You probably already include the core styles
+@import './variables.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+// For Duotones you need both of these files
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+
+// You can include all the other styles the same as before
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './bootswatch.scss';
