@@ -1,3 +1,5 @@
+Comentário: Texto copiado (com algumas modificações) de https://www.lewagon.com/pt-BR/blog/o-que-e-padrao-mvc. A prova era sem consulta. Nota 0.0
+
 O MVC é um padrão de arquitetura que através de um design de camadas cria uma estrutura de competências que otimiza as requisições feitas à solução onde o MVC foi aplicado.
 
 Model: É a camada responsável por gerenciar e controlar a forma que os dados se comportam, e onde são aplicadas as regras de negócio, ele também valida as informações retornadas pelo controller e depois retorna a resposta mais adequada

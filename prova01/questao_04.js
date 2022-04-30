@@ -1,3 +1,5 @@
+// Comentário: Código implementado corretamente. Nota 2.0
+
 const fs = require('fs');
 
 function readFile(filename) {
